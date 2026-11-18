@@ -1,0 +1,3 @@
+Model,MAE,RMSE,R2 Score
+Original Random Forest Regressor,59.056635,93.398287,0.893302
+Historical Feature Random Forest Regressor,43.424561,63.828606,0.950168

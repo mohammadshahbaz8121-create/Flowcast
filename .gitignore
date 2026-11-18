@@ -1,0 +1,21 @@
+﻿venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.DS_Store
+Thumbs.db
+
+# Large trained models
+models/*.pkl
+
+# Temporary files
+*.log
+
+# Test cache
+.pytest_cache/
+
+# Intermediate datasets
+data/interim/traffic_cleaned.csv
+data/interim/weather_cleaned.csv
+data/processed/flowcast_features.csv
